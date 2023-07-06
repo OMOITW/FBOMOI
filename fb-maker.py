@@ -22,7 +22,7 @@ class create:
         )
         self.create_total = 0
         self.blacklist_email = [] #'@datasoma', '@geroev', '@cliptik', '@khtyler', '@parcel4']
-        self.temp_email_url = 'https://temp-mail.org'
+        self.temp_email_url = 'https://email-fake.com'
 
         self.__main__()
 
