@@ -104,7 +104,7 @@ class create:
         return True
 
     # mail
-    def _open_temp_mail(self):
+    def _open_email_fake(self):
         return self.br.open(self.temp_email_url).read()
 
     def _find_email(self, text):
